@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+
+  .section-clients-descr,
+  .section-clients .section-header,
+  .service-tmb,
+  .project-tmb,
+  .pros-tmb-descr,
+  .pros-tmb-obj,
+  .pros-tmb-pic,
+  .about-descr,
+  .about-video,
+  .section-about .section-header,
+  .quote-text,
+  .quote-author,
+  .page-header-text,
+  .page-header-content h1,
+  .page-header-content .h1 {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .section-clients-descr,
+  .section-clients .section-header,
+  .service-tmb,
+  .project-tmb,
+  .pros-tmb-descr,
+  .pros-tmb-obj,
+  .pros-tmb-pic,
+  .about-descr,
+  .about-video,
+  .section-about .section-header,
+  .quote-text,
+  .quote-author,
+  .page-header-text,
+  .page-header-content h1,
+  .page-header-content .h1 {
+    opacity: 0;
+  }
+
+}
