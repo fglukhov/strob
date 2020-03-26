@@ -180,7 +180,7 @@ function animateAll() {
 
       var prosObjScene = new ScrollMagic.Scene({
         triggerElement: element.closest(".pros-list"),
-        offset: -100
+        offset: -250
       })
         .setTween(prosObjTween)
         .addTo(controller);
